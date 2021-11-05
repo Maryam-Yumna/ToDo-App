@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const todo_controller_1 = require("./../controllers/todo.controller");
+const router = (0, express_1.Router)();
+router.get("/allTodos", todo_controller_1.getAllTodos);
+router.post("/newTodo", todo_controller_1.addNewTodo);
+router.put("/editTodo/:id", todo_controller_1.updateTodo);
+router.delete("/removeTodo/:id", todo_controller_1.removeToDo);
+router.get("/allTodosEndDateAscOrder", todo_controller_1.sortByEndDateAsc);
+router.get("/allTodosEndDateDescOrder", todo_controller_1.sortByEndDateDesc);
+router.get("/allTodosCreatedOrder", todo_controller_1.sortByCreatedOrder);
+exports.default = router;

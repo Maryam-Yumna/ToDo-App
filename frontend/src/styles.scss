@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: unset;
+}
+
+.App{
+    background-color:	#282828;
+    padding-top: 20px;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+// .appContainer{
+//     margin-top:0px;
+// }
+
+.addTodoFormWrapper{
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.inputTextField{
+    width: 100%;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    width: 100%;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+#addTodoBtn{
+    max-height:100%;
+    margin-left: 20px
+;
+}
+#addButtonGrid{
+    padding-top: 5px;
+}
+.todoListWrapper{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: #D3D3D3;
+    border-radius: 5px;
+
+}
+
+.inputTextField{
+    background-color: white
+}
+#order{
+    background-color: white
+}
+
+#removeTodoBtn{
+    background-color: #ed5353;
+    color: whitesmoke;
+    // margin-right: 15px;
+    margin-left:15px;
+}
+
+#cardAction{
+    text-align: center;
+}
